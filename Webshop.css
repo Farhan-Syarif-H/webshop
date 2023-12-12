@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Logo{
+    justify-content: end;
+    display: flex;
+    font-size: 70px;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+   padding: 5px;
+   margin-right: 45px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    background: rgb(5, 88, 5);
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px;
+    width: 85%;
+    align-items: center;
+}
+
+/* .judul{
+    color: white;
+    font-size: 30px;
+    width:700px;
+    display: flex;
+    align-items: center;
+}
+
+
+.tulis{
+    margin-left: 90px;
+    margin-bottom: -2rem;
+    text-align: justify;
+}
+
+.judul img {
+    border-radius: 40px 0px 40px 0px;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+} */
+
+.satu {
+    background: rgb(5, 88, 5);
+    margin-top: -4rem;
+    padding-bottom: 4rem;
+}
+
+.border{
+    border: 3px solid black;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    box-shadow: 1px 2px 0px white;
+}
+
+.judul {
+    display: flex ;
+    justify-content: space-between;
+    padding: 0 90px;
+  
+}
+
+.nama  h1{
+    font-size: 5rem;
+    color: white;
+    padding-top: 4rem;
+}
+
+.logo img {
+    width:400px;
+    border-radius: 100px 0px 100px 0px;
+    margin-top: 10rem;
+}
+
+.logo2 img {
+    width: 350px;
+    border-radius: 100%;
+    margin-top: 4rem;
+}
+
+
+.nama2 h2, h3 {
+  display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.foto1 img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.box {
+    flex-wrap: wrap;
+}
+
+.tulisan {
+    padding-left: 10px;
+    
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 30px;
+}
+
+.box2 {
+    background: rgb(186, 185, 181);
+}
+
+.tulisan2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.menu1 {
+    background: rgb(5, 88, 5);
+    width: 250px;
+    border-radius: 20px;
+    padding-bottom: 35px;
+}
+
+.menu1-img img {
+    width: 100%;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.menu-tulisan {
+    padding-left: 25px;
+    font-size: 15px;
+    color: white;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+    padding: 4rem 4rem 0 ;
+    padding-bottom: 70px;
+}
+
+.box3-img img {
+    width: 500px;
+    border-radius: 50%;
+}
+.box3 {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+.box3-tulisan {
+    padding-top: 6rem;
+    font-size: 25px; 
+}
+
+.border2 {
+    border: 3px solid black;
+    border-radius:15px;
+    width: 40%;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+     display: flex;
+     justify-content: space-between;
+     padding:1rem 4rem;
+}
+
+.footer-h1, .footer-p {
+    width: 420px;
+    padding-top: 1rem;
+}
+span {
+    color: blue;
+}
+
+.home , .help, .social {
+    padding-top: 1rem;
+}
+
